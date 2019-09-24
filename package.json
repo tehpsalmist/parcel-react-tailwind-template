@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "main": "index.html",
   "scripts": {
-    "start": "parcel serve index.html",
-    "build": "parcel build index.html",
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html",
     "stage": "now && now rm parcel-react-tailwind-template -ys",
     "prod": "now --prod && now rm parcel-react-tailwind-template -ys"
   },

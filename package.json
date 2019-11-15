@@ -26,7 +26,7 @@
   "homepage": "https://github.com/tehpsalmist/parcel-react-tailwind-template#readme",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "latest",
-    "parcel": "^1.12.3",
+    "parcel": "^1.12.4",
     "tailwindcss": "latest"
   },
   "dependencies": {

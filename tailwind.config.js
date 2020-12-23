@@ -1,16 +1,15 @@
-const { theme: { colors } } = require('tailwindcss/defaultConfig')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
-  future: {
-    // removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   purge: {
+    enabled: process.env.MODE !== 'development',
     content: [
       './src/**/*.html',
+      './src/**/*.js',
       './src/**/*.tsx'
     ]
   },
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
@@ -55,6 +54,8 @@ module.exports = {
       }
     },
   },
-  variants: {},
+  variants: {
+    extend: {},
+  },
   plugins: [],
 }

@@ -3,10 +3,8 @@
   "version": "0.0.1",
   "main": "index.html",
   "scripts": {
-    "start": "parcel serve src/index.html",
-    "build": "parcel build src/index.html --no-scope-hoist",
-    "stage": "now && now rm parcel-react-tailwind-template -ys",
-    "prod": "now --prod && now rm parcel-react-tailwind-template -ys"
+    "start": "MODE=development parcel serve src/index.html",
+    "build": "MODE=production parcel build src/index.html --no-scope-hoist"
   },
   "repository": {
     "type": "git",
@@ -25,12 +23,17 @@
   },
   "homepage": "https://github.com/tehpsalmist/parcel-react-tailwind-template#readme",
   "devDependencies": {
+    "@parcel/transformer-postcss": "^2.0.0-nightly.488",
+    "@types/react": "^latest",
+    "@types/react-dom": "^latest",
+    "@types/react-router-dom": "latest",
     "parcel": "next",
     "tailwindcss": "latest"
   },
   "dependencies": {
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-router-dom": "^5.2.0"
   },
   "app": "public/index.html",
   "targets": {

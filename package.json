@@ -24,8 +24,8 @@
   "homepage": "https://github.com/tehpsalmist/parcel-react-tailwind-template#readme",
   "devDependencies": {
     "@parcel/transformer-postcss": "^2.0.0-nightly.488",
-    "@types/react": "^latest",
-    "@types/react-dom": "^latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
     "@types/react-router-dom": "latest",
     "parcel": "next",
     "tailwindcss": "latest"

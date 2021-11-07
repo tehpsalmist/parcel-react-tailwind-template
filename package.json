@@ -23,18 +23,18 @@
   },
   "homepage": "https://github.com/tehpsalmist/parcel-react-tailwind-template#readme",
   "devDependencies": {
-    "@parcel/transformer-postcss": "^2.0.0-nightly.488",
+    "@parcel/transformer-postcss": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@types/react-router-dom": "latest",
     "autoprefixer": "latest",
-    "parcel": "next",
+    "parcel": "latest",
     "tailwindcss": "latest"
   },
   "dependencies": {
-    "react": "latest",
-    "react-dom": "latest",
-    "react-router-dom": "^5.2.0"
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "^6"
   },
   "app": "public/index.html",
   "targets": {

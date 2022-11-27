@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-export const App = props => {
+export const App = () => {
   return <main>Hello World!</main>
 }
 

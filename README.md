@@ -1,4 +1,4 @@
-[Check it out live](https://parcel-react-tailwind-template.now.sh)
+[Check it out live](https://parcel-react-tailwind-template.vercel.app)
 
 Spin it up locally:
 

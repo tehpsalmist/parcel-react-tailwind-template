@@ -2,7 +2,8 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
-      './src/**/*.{html,js,jsx,ts,tsx}'
+      './src/**/*.{html,js,jsx,ts,tsx}',
+      './node_modules/@8thday/**/*.{html,js,jsx,ts,tsx}'
   ],
   theme: {
     extend: {
@@ -14,16 +15,20 @@ module.exports = {
         }
       },
       minHeight: theme => ({
-        ...theme('spacing')
+        ...theme('spacing'),
+        ...theme('width')
       }),
       maxHeight: theme => ({
-        ...theme('spacing')
+        ...theme('spacing'),
+        ...theme('width')
       }),
       minWidth: theme => ({
-        ...theme('spacing')
+        ...theme('spacing'),
+        ...theme('width')
       }),
       maxWidth: theme => ({
-        ...theme('spacing')
+        ...theme('spacing'),
+        ...theme('width')
       }),
       inset: theme => ({
         ...theme('spacing')

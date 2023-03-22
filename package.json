@@ -30,7 +30,7 @@
     "tailwindcss": "latest"
   },
   "dependencies": {
-    "@8thday/button": "latest",
+    "@8thday/react": "latest",
     "react": "latest",
     "react-dom": "latest"
   },

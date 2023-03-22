@@ -1,4 +1,4 @@
-import { Button } from '@8thday/button'
+import { Button } from '@8thday/react'
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 

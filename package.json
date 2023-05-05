@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/tehpsalmist/parcel-react-tailwind-template#readme",
   "devDependencies": {
+    "@parcel/transformer-svg-react": "^2",
     "@tailwindcss/forms": "^0.5.3",
     "@types/react": "latest",
     "@types/react-dom": "latest",

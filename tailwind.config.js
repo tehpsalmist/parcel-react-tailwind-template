@@ -43,7 +43,11 @@ module.exports = {
         '5xl': '64rem',
         '6xl': '72rem',
         '100vw': '100vw',
+        '100dvh': '100dvh',
+        '100svh': '100svh',
         content: 'calc(100vh - 3rem)',
+        contentD: 'calc(100dvh - 3rem)',
+        contentS: 'calc(100svh - 3rem)',
       },
       boxShadow: {
         md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 -1px 4px -1px rgba(0, 0, 0, 0.06)',

@@ -42,7 +42,7 @@
     "main": false,
     "app": {
       "engines": {
-        "browsers": "Chrome 70"
+        "browsers": "defaults"
       }
     }
   },
